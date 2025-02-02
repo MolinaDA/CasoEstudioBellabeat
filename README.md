@@ -79,12 +79,22 @@ equipo ejecutivo de Bellabeat junto con las recomendaciones de alto nivel para l
   3.2 Paquetes usados para el análisis
   
   - library(tidyverse)
-  - library(lubridate) 
+  - library(lubridate)
+  - library(readr)
   - library(dplyr)
   - library(ggplot2)
   - library(janitor)
 
 
+4. ANALIZAR
+
+
+5. COMPARTIR
+
+
+6. ACTUAR
+
+Luego de analizar los datos proporcionados para evaluar las posibles estrategias de marketing para un productos
   
 
 
