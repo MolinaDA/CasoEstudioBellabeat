@@ -72,6 +72,16 @@ equipo ejecutivo de Bellabeat junto con las recomendaciones de alto nivel para l
   Para este análisis, se utilizará **R** version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
   Copyright (C) 2024 The R Foundation for Statistical Computing Platform: x86_64-w64-mingw32/x64.
 
+  2.3 Paquetes usados para el análisis
+  
+  - library(tidyverse)
+  - library(lubridate) 
+  - library(dplyr)
+  - library(ggplot2)
+  - library(janitor)
+  
+3. PROCESAR
+
 
 
 
