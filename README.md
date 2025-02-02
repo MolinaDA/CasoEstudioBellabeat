@@ -67,20 +67,25 @@ equipo ejecutivo de Bellabeat junto con las recomendaciones de alto nivel para l
   - Actualidad - BAJA: Estos datos son de marzo de 2016 a mayo de 2016. Los datos no son actuales, lo que significa que los hábitos de los usuarios pueden haber cambiado a la fecha de hoy.
   - Citación - BAJA: Los datos fueron recolectados de un tercero, por lo tanto, se desconoce la fuente.
 
-  2.2  Software de procesamiento de datos
+3. PROCESAR
+  
+  3.1  Software de procesamiento de datos
   
   Para este análisis, se utilizará **R** version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
   Copyright (C) 2024 The R Foundation for Statistical Computing Platform: x86_64-w64-mingw32/x64.
+  
+  Debido a la capacidad de poder operar con gran cantidad de datos y el registro que se puede llevar para luego poder replicar los análisis en casos de estudio similares.
 
-  2.3 Paquetes usados para el análisis
+  3.2 Paquetes usados para el análisis
   
   - library(tidyverse)
   - library(lubridate) 
   - library(dplyr)
   - library(ggplot2)
   - library(janitor)
+
+
   
-3. PROCESAR
 
 
 
