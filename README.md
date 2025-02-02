@@ -1,7 +1,8 @@
-Caso práctico de estudio para Portafolio del curso "Análisis de Datos Google 2024" de Coursera - Google
+**Caso práctico de estudio para Portafolio del curso "Análisis de Datos Google 2024" de Coursera - Google**
+
 BELLABEAT : ¿Cómo puede hacer una empresa tecnológica para el bienestar, para tomar decisiones inteligentes?
 ________________________________________________________________________________________________________________________
-Por: José Molina Huerta - Febrero 2025
+Por: **José Molina Huerta - Febrero 2025**
 ________________________________________________________________________________________________________________________
 El caso se analizará de acuerdo con los 6 pasos para el proceso de análisis de datos:
 
@@ -47,13 +48,34 @@ equipo ejecutivo de Bellabeat junto con las recomendaciones de alto nivel para l
 
 2. PREPARAR
 
-  - Los datos utilizados para el estudio, se pueden revisar en el siguiente enlace: https://www.kaggle.com/arashnic/fitbit .
+  2.1 Datos
+  
+  Los datos utilizados para el estudio, se pueden revisar en el siguiente enlace: https://www.kaggle.com/arashnic/fitbit .
   (CC0: Dominio público, conjunto de datos disponibles a través de Mobius(enlace de su perfil: https://www.kaggle.com/arashnic ).
   Este conjunto de datos de Kaggle contiene el seguimiento de la actividad física personal en treinta usuarios de Fitbit. Treinta
   usuarios elegibles de Fitbit prestaron su consentimiento para el envío de datos personales de seguimiento que incluyen rendimiento
   de la actividad física en minutos, ritmo cardíaco y monitoreo del sueño. Incluye información sobre la actividad diaria, pasos y
   ritmo cardíaco que se puede usar para explorar los hábitos de los usuarios.
+
+  Los datos mencionados para el análisis, están contenidos en 18 archivos CSV los cuales están en formato largo. A continuación se 
+  presenta el resumen de datos de acuerdo al acercamiento ROCCC (Reliability, Original, Comprehensive, Current, Cited - en español
+  R:Confiabilidad, O: Originalidad, C: Integridad, C: Actualidad, C: Citación):
+
+  - Fiabilidad - BAJA: Los datos provienen de 30 usuarios de Fitbit que dieron su consentimiento para la presentación de datos de su rastreador personal, incluyendo resultados por minuto para la actividad física, la frecuencia cardíaca y el monitoreo del sueño.
+  - Originalidad - BAJA: Datos recolectados por terceros utilizando Amazon Mechanical Turk.
+  - Integralidad - MEDIA: El conjunto de datos contiene múltiples campos sobre la intensidad de la actividad diaria, calorías usadas, pasos diarios, tiempo de sueño diario y registro de peso.
+  - Actualidad - BAJA: Estos datos son de marzo de 2016 a mayo de 2016. Los datos no son actuales, lo que significa que los hábitos de los usuarios pueden haber cambiado a la fecha de hoy.
+  - Citación - BAJA: Los datos fueron recolectados de un tercero, por lo tanto, se desconoce la fuente.
+
+  2.2  Software de procesamiento de datos
   
+  Para este análisis, se utilizará **R** version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
+  Copyright (C) 2024 The R Foundation for Statistical Computing Platform: x86_64-w64-mingw32/x64.
+
+
+
+
+
 
 
 
