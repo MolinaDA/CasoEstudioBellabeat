@@ -61,13 +61,20 @@ equipo ejecutivo de Bellabeat junto con las recomendaciones de alto nivel para l
   presenta el resumen de datos de acuerdo al acercamiento ROCCC (Reliability, Original, Comprehensive, Current, Cited - en español
   R:Confiabilidad, O: Originalidad, C: Integridad, C: Actualidad, C: Citación):
 
-  - Fiabilidad - BAJA: Los datos provienen de 30 usuarios de Fitbit que dieron su consentimiento para la presentación de datos de su rastreador personal, incluyendo resultados por minuto para la actividad física, la frecuencia cardíaca y el monitoreo del sueño.
+  - Fiabilidad - BAJA: Los datos provienen de XX usuarios [CORROBORAR CANTIDAD] de Fitbit que dieron su consentimiento para la presentación de datos de su rastreador personal, incluyendo resultados por minuto para la actividad física, la frecuencia cardíaca y el monitoreo del sueño.
   - Originalidad - BAJA: Datos recolectados por terceros utilizando Amazon Mechanical Turk.
   - Integralidad - MEDIA: El conjunto de datos contiene múltiples campos sobre la intensidad de la actividad diaria, calorías usadas, pasos diarios, tiempo de sueño diario y registro de peso.
   - Actualidad - BAJA: Estos datos son de marzo de 2016 a mayo de 2016. Los datos no son actuales, lo que significa que los hábitos de los usuarios pueden haber cambiado a la fecha de hoy.
   - Citación - BAJA: Los datos fueron recolectados de un tercero, por lo tanto, se desconoce la fuente.
 
+  2.2 Integridad de los datos
+
+  
+  
+
 3. PROCESAR
+
+
   
   3.1  Software de procesamiento de datos
   
