@@ -409,6 +409,7 @@ Para comenzar el análisis, se identifica cuántos usuarios compartieron los dat
 [1] 8
 
 ```
+![imagen](https://github.com/user-attachments/assets/12b93dbc-0576-47c0-9fce-592bbd061975)
 
 
 
