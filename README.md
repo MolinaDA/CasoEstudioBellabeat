@@ -408,7 +408,11 @@ Para comenzar el análisis, se identifica cuántos usuarios compartieron los dat
 > n_distinct(peso_log$Id)
 [1] 8
 
-``` 
+```
+
+
+
+
 Del cuadro anterior, podemos observar que en algunos archivos no está la misma cantidad de usuarios, como resumen (insertar tabla ?)
 
 
