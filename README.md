@@ -577,21 +577,59 @@ Promedio de minutos intensidad ALTA por Id
 
 #### 4.1.1.2 Distribución de los minutos promedio de actividad física por intensidad por día de la semana
 
+Promedio de minutos REPOSO por día de semana
+```
+Día_semana promedio_seden_semana
+  <ord>                      <dbl>
+1 dom                         990.
+2 lun                        1028.
+3 mar                        1007.
+4 mié                         989.
+5 jue                         962.
+6 vie                        1000.
+7 sáb                         964.
+```
 
+Promedio de minutos intensidad BAJA día de semana
 ```
+ Día_semana promedio_intenbaja_semana
+  <ord>                          <dbl>
+1 dom                             174.
+2 lun                             192.
+3 mar                             197.
+4 mié                             190.
+5 jue                             185.
+6 vie                             204.
+7 sáb                             207.
+```
+
+Promedio de minutos intensidad MEDIA día de semana
+```
+Día_semana promedio_intenmedia_semana
+  <ord>                           <dbl>
+1 dom                              14.5
+2 lun                              14  
+3 mar                              14.3
+4 mié                              13.1
+5 jue                              12.0
+6 vie                              12.1
+7 sáb                              15.2
+```
+
+Promedio de minutos intensidad ALTA día de semana
+```
+ Día_semana promedio_intenbaja_semana
+  <ord>                          <dbl>
+1 dom                             20.0
+2 lun                             23.1
+3 mar                             23.0
+4 mié                             20.8
+5 jue                             19.4
+6 vie                             20.1
+7 sáb                             21.9
 ```
 
 
-```
-```
-
-
-```
-```
-
-
-```
-```
 
 
 ```
