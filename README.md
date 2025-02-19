@@ -629,13 +629,155 @@ Promedio de minutos intensidad ALTA día de semana
 7 sáb                             21.9
 ```
 
+De los datos expuestos anteriormente, se revisan y comparan las medias como se detalla a continuación:
 
-
-
+Minutos sedentarios vs Minutos de intensidad baja
 ```
+Welch Two Sample t-test
+
+data:  actividad_diaria$SedentaryMinutes and actividad_diaria$LightlyActiveMinutes
+t = 76.39, df = 1181.4, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 777.8922 818.9036
+sample estimates:
+mean of x mean of y 
+ 991.2106  192.8128 
 ```
 
+Minutos de intensidad baja vs Minutos de intensidad moderada
+```
+Welch Two Sample t-test
 
+data:  actividad_diaria$LightlyActiveMinutes and actividad_diaria$FairlyActiveMinutes
+t = 49.515, df = 1001.9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 172.1441 186.3517
+sample estimates:
+mean of x mean of y 
+192.81277  13.56489 
+```
+
+Minutos de intensidad moderada vs Minutos de intensidad alta
+```
+Welch Two Sample t-test
+
+data:  actividad_diaria$VeryActiveMinutes and actividad_diaria$FairlyActiveMinutes
+t = 6.0604, df = 1550.6, p-value = 1.702e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  5.140192 10.059808
+sample estimates:
+mean of x mean of y 
+ 21.16489  13.56489 
+```
+**ESTO PASARLO AL PUNTO 4.2**
+**Según los resultados de las pruebas de comparación de medias que realicé anteriormente, parece que la categoría "SedentaryMinutes" (minutos sedentarios) tiene la media más alta, con un valor de 991.2106 minutos.
+Esto sugiere que la mayoría de los usuarios pasan la mayor parte de su tiempo en actividades sedentarias, como sentarse o estar inactivos.**
+
+**Sin embargo, con respecto a la categoría de intensidad más común en términos de actividad física, se puede considerar la categoría "LightlyActiveMinutes" (minutos baja), que tiene una media de 192.81277 minutos.
+Esto sugiere que la mayoría de los usuarios realizan actividades ligeramente activas, como caminar o realizar tareas domésticas, durante una parte significativa de su tiempo.**
+
+### 4.1.2 Distribución de los minutos de sueño
+
+#### 4.1.2.1 Distribución de los minutos promedio de sueño por Id
+```
+ Id         promedio_sueño_diar_id
+   <chr>                       <dbl>
+ 1 2320127002                   61  
+ 2 7007744171                   68.5
+ 3 4558609924                  128. 
+ 4 3977333714                  294. 
+ 5 1644430081                  294  
+ 6 8053475328                  297  
+ 7 4020332650                  349. 
+ 8 6775888955                  350. 
+ 9 1503960366                  360. 
+10 4445114986                  385. 
+11 4388161847                  400. 
+12 1927972279                  417  
+13 4702921684                  417. 
+14 5577150313                  432  
+15 8792009665                  436. 
+16 8378563200                  445. 
+17 2347167796                  447. 
+18 6962181067                  448  
+19 7086361926                  453. 
+20 5553957443                  463. 
+21 4319703577                  477. 
+22 6117666160                  479. 
+23 2026352035                  506. 
+24 1844505072                  652  
+```
+Nota: En este set de datos, sólo hay registros de 24 usuarios.
+
+#### 4.1.2.2 Distribución de los minutos promedio de sueño por día de la semana
+```
+  Día_semana promedio_sueño_dia_semana
+  <ord>                          <dbl>
+1 dom                             453.
+2 lun                             420.
+3 mar                             405.
+4 mié                             435.
+5 jue                             401.
+6 vie                             405.
+7 sáb                             419.
+```
+
+### 4.1.3 Distribución de la cantidad de pasos
+
+#### 4.1.3.1 Distribución de promedio de pasos por Id
+```
+   Id         promedio_pasos
+   <chr>               <dbl>
+ 1 1927972279           916.
+ 2 8792009665          1854.
+ 3 4020332650          2267.
+ 4 6775888955          2520.
+ 5 1844505072          2580.
+ 6 4057192912          3838 
+ 7 2320127002          4717.
+ 8 4445114986          4797.
+ 9 2026352035          5567.
+10 6290855005          5650.
+11 1624580081          5744.
+12 8253242879          6482.
+13 3372868164          6862.
+14 6117666160          7047.
+15 8583815059          7199.
+16 4319703577          7269.
+17 1644430081          7283.
+18 2873212765          7556.
+19 4558609924          7685.
+20 5577150313          8304.
+21 4702921684          8572.
+22 5553957443          8613.
+23 8378563200          8718.
+24 7086361926          9372.
+25 2347167796          9520.
+26 6962181067          9795.
+27 4388161847         10814.
+28 3977333714         10985.
+29 7007744171         11323.
+30 2022484408         11371.
+31 1503960366         12117.
+32 8053475328         14763.
+33 8877689391         16040.
+```
+
+#### 4.1.3.2 Distribución de promedio de pasos por día de la semana
+```
+ Día_semana promedio_pasos
+  <ord>               <dbl>
+1 dom                 6933.
+2 lun                 7781.
+3 mar                 8125.
+4 mié                 7559.
+5 jue                 7406.
+6 vie                 7448.
+7 sáb                 8153.
+```
 
 
 # **5. COMPARTIR**
