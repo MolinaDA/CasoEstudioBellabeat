@@ -457,6 +457,8 @@ Promedio de minutos REPOSO por Id
 32 6775888955                1299.
 33 1927972279                1317.
 ```
+![imagen](https://github.com/user-attachments/assets/c188fce9-31be-4dbf-9f8a-03c9766d09cd)
+
 
 Promedio de minutos intensidad BAJA por Id
 ```
@@ -496,6 +498,8 @@ Promedio de minutos intensidad BAJA por Id
 32 2873212765              308  
 33 3372868164              328. 
 ```
+![imagen](https://github.com/user-attachments/assets/f0c5ab38-b6ee-4062-bfaf-4f38c919f742)
+
 
 Promedio de minutos intensidad MEDIA por Id
 ```
@@ -535,6 +539,8 @@ Id         promedio_intenmedia
 32 5577150313              29.8  
 33 3977333714              61.3 
 ```
+![imagen](https://github.com/user-attachments/assets/6677c56e-2e54-42c7-86bb-7e148d369686)
+
 
 Promedio de minutos intensidad ALTA por Id
 ```
@@ -574,6 +580,8 @@ Promedio de minutos intensidad ALTA por Id
 32 8053475328            85.2   
 33 5577150313            87.3   
 ```
+![imagen](https://github.com/user-attachments/assets/5b5febc9-9a0d-4362-b000-12cfb02a8b31)
+
 
 #### 4.1.1.2 Distribución de los minutos promedio de actividad física por intensidad por día de la semana
 
@@ -628,56 +636,6 @@ Promedio de minutos intensidad ALTA día de semana
 6 vie                             20.1
 7 sáb                             21.9
 ```
-
-De los datos expuestos anteriormente, se revisan y comparan las medias como se detalla a continuación:
-
-Minutos sedentarios vs Minutos de intensidad baja
-```
-Welch Two Sample t-test
-
-data:  actividad_diaria$SedentaryMinutes and actividad_diaria$LightlyActiveMinutes
-t = 76.39, df = 1181.4, p-value < 2.2e-16
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
- 777.8922 818.9036
-sample estimates:
-mean of x mean of y 
- 991.2106  192.8128 
-```
-
-Minutos de intensidad baja vs Minutos de intensidad moderada
-```
-Welch Two Sample t-test
-
-data:  actividad_diaria$LightlyActiveMinutes and actividad_diaria$FairlyActiveMinutes
-t = 49.515, df = 1001.9, p-value < 2.2e-16
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
- 172.1441 186.3517
-sample estimates:
-mean of x mean of y 
-192.81277  13.56489 
-```
-
-Minutos de intensidad moderada vs Minutos de intensidad alta
-```
-Welch Two Sample t-test
-
-data:  actividad_diaria$VeryActiveMinutes and actividad_diaria$FairlyActiveMinutes
-t = 6.0604, df = 1550.6, p-value = 1.702e-09
-alternative hypothesis: true difference in means is not equal to 0
-95 percent confidence interval:
-  5.140192 10.059808
-sample estimates:
-mean of x mean of y 
- 21.16489  13.56489 
-```
-**ESTO PASARLO AL PUNTO 4.2**
-**Según los resultados de las pruebas de comparación de medias que realicé anteriormente, parece que la categoría "SedentaryMinutes" (minutos sedentarios) tiene la media más alta, con un valor de 991.2106 minutos.
-Esto sugiere que la mayoría de los usuarios pasan la mayor parte de su tiempo en actividades sedentarias, como sentarse o estar inactivos.**
-
-**Sin embargo, con respecto a la categoría de intensidad más común en términos de actividad física, se puede considerar la categoría "LightlyActiveMinutes" (minutos baja), que tiene una media de 192.81277 minutos.
-Esto sugiere que la mayoría de los usuarios realizan actividades ligeramente activas, como caminar o realizar tareas domésticas, durante una parte significativa de su tiempo.**
 
 ### 4.1.2 Distribución de los minutos de sueño
 
@@ -765,6 +723,8 @@ Nota: En este set de datos, sólo hay registros de 24 usuarios.
 32 8053475328         14763.
 33 8877689391         16040.
 ```
+![imagen](https://github.com/user-attachments/assets/035105d1-eeff-4318-a9c8-0b2c2340f5ff)
+
 
 #### 4.1.3.2 Distribución de promedio de pasos por día de la semana
 ```
@@ -778,6 +738,242 @@ Nota: En este set de datos, sólo hay registros de 24 usuarios.
 6 vie                 7448.
 7 sáb                 8153.
 ```
+![imagen](https://github.com/user-attachments/assets/cc65074f-5a99-4c45-96ab-5aa4c5d79b1d)
+
+
+### 4.1.4 Distribución de la cantidad de calorías
+
+#### 4.1.4.1 Distribución de promedio de calorías por Id
+```
+Id         promedio_calorias
+   <chr>                  <dbl>
+ 1 1503960366             1816.
+ 2 1624580081             1483.
+ 3 1644430081             2811.
+ 4 1844505072             1573.
+ 5 1927972279             2173.
+ 6 2022484408             2510.
+ 7 2026352035             1541.
+ 8 2320127002             1724.
+ 9 2347167796             2043.
+10 2873212765             1917.
+11 3372868164             1933.
+12 3977333714             1514.
+13 4020332650             2386.
+14 4057192912             1974.
+15 4319703577             2038.
+16 4388161847             3094.
+17 4445114986             2186.
+18 4558609924             2033.
+19 4702921684             2966.
+20 5553957443             1876.
+21 5577150313             3360.
+22 6117666160             2261.
+23 6290855005             2600.
+24 6775888955             2132.
+25 6962181067             1982.
+26 7007744171             2544 
+27 7086361926             2566.
+28 8053475328             2946.
+29 8253242879             1788 
+30 8378563200             3437.
+31 8583815059             2732.
+32 8792009665             1962.
+33 8877689391             3420.
+```
+![imagen](https://github.com/user-attachments/assets/e406b76c-dcde-4c4e-9612-ae9c2a3b936f)
+
+
+#### 4.1.4.2 Distribución de promedio de calorías por semana
+```
+Día_semana promedio_calorias
+  <ord>                  <dbl>
+1 dom                    2283.
+2 lun                    2346.
+3 mar                    2280.
+4 mié                    2299.
+5 jue                    2282.
+6 vie                    2266.
+7 sáb                    2381.
+```
+![imagen](https://github.com/user-attachments/assets/a498ca09-1904-4f4c-b087-e64de821fa6c)
+
+
+### 4.1.5 Distribución de la METs
+
+#### 4.1.5.1 Distribución de promedio de METs por Id
+```
+   Id         promedio_Mets
+   <chr>              <dbl>
+ 1 1927972279          10.6
+ 2 6775888955          11.8
+ 3 1844505072          11.9
+ 4 8792009665          12.0
+ 5 4057192912          12.1
+ 6 4020332650          12.2
+ 7 1624580081          12.5
+ 8 8583815059          13.2
+ 9 2320127002          13.2
+10 6290855005          13.2
+11 8253242879          13.2
+12 4445114986          13.4
+13 2026352035          13.9
+14 4319703577          14.1
+15 1644430081          14.1
+16 5553957443          14.5
+17 3372868164          14.6
+18 6117666160          14.7
+19 4702921684          15.0
+20 2873212765          15.3
+21 4558609924          15.4
+22 3977333714          15.5
+23 6962181067          15.6
+24 2347167796          15.7
+25 7086361926          15.9
+26 8378563200          16.1
+27 4388161847          16.4
+28 1503960366          16.7
+29 7007744171          17.0
+30 2022484408          17.0
+31 8053475328          17.0
+32 5577150313          18.7
+33 8877689391          19.7
+```
+
+
+#### 4.1.5.2 Distribución de promedio de METs por semana
+```
+  Día_semana promedio_METs_dia_semana
+  <ord>                         <dbl>
+1 dom                            14.2
+2 lun                            14.7
+3 mar                            14.9
+4 mié                            14.6
+5 jue                            14.7
+6 vie                            14.7
+7 sáb                            15.0
+```
+
+
+### 4.2 Relación entre variables
+
+#### 4.2.1 Medias entre tipos de actividades
+
+Se revisan y comparan las medias como se detalla a continuación:
+
+Minutos sedentarios vs Minutos de intensidad baja
+```
+Welch Two Sample t-test
+
+data:  actividad_diaria$SedentaryMinutes and actividad_diaria$LightlyActiveMinutes
+t = 76.39, df = 1181.4, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 777.8922 818.9036
+sample estimates:
+mean of x mean of y 
+ 991.2106  192.8128 
+```
+
+Minutos de intensidad baja vs Minutos de intensidad moderada
+```
+Welch Two Sample t-test
+
+data:  actividad_diaria$LightlyActiveMinutes and actividad_diaria$FairlyActiveMinutes
+t = 49.515, df = 1001.9, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 172.1441 186.3517
+sample estimates:
+mean of x mean of y 
+192.81277  13.56489 
+```
+
+Minutos de intensidad moderada vs Minutos de intensidad alta
+```
+Welch Two Sample t-test
+
+data:  actividad_diaria$VeryActiveMinutes and actividad_diaria$FairlyActiveMinutes
+t = 6.0604, df = 1550.6, p-value = 1.702e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  5.140192 10.059808
+sample estimates:
+mean of x mean of y 
+ 21.16489  13.56489 
+```
+
+Según los resultados de las pruebas de comparación de medias que realicé anteriormente, parece que la categoría "SedentaryMinutes" (minutos sedentarios) tiene la media más alta, con un valor de 991.2106 minutos.
+Esto sugiere que la mayoría de los usuarios pasan la mayor parte de su tiempo en actividades sedentarias, como sentarse o estar inactivos.**
+
+Sin embargo, con respecto a la categoría de intensidad más común en términos de actividad física, se puede considerar la categoría "LightlyActiveMinutes" (minutos baja), que tiene una media de 192.81277 minutos.
+Esto sugiere que la mayoría de los usuarios realizan actividades ligeramente activas, como caminar o realizar tareas domésticas, durante una parte significativa de su tiempo.
+
+
+#### 4.2.2 Relación entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria
+
+En este punto se evaluará si existe algún tipo de correlación entre la cantidad de sueño diaria con respecto la cantidad de pasos diaria, mediante el coeficiente de correlación de Pearson: 
+```
+# Calcular el coeficiente de correlación de Pearson
+correlacion_sueñovspasos <- cor(dcomb_sueñovspasos$TotalMinutesAsleep, dcomb_sueñovspasos$StepTotal)
+
+# Imprimir el resultado
+print(paste("Coeficiente de correlación: ", correlacion_sueñovspasos))
+[1] "Coeficiente de correlación:  -0.0997283553441308"
+
+# Interpretar el resultado
+if (correlacion_sueñovspasos > 0) {
+  print("Hay una correlación positiva entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria.")
+} else if (correlacion_sueñovspasos < 0) {
+  print("Hay una correlación negativa entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria.")
+} else {
+  print("No hay correlación entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria.")
+}
+[1] "Hay una correlación negativa entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria."
+```
+Esto sugiere que a medida que aumenta la cantidad de minutos de sueño diaria, disminuye la cantidad de pasos diaria. Esto podría indicar que los usuarios que duermen más tienden a ser menos activos físicamente.
+Algunas posibles explicaciones para esta correlación negativa podrían ser:
+
+ - Los usuarios que duermen más pueden tener estilos de vida más sedentarios.
+ - La falta de sueño puede llevar a un aumento en la actividad física para compensar la fatiga.
+ - Hay factores externos que influyen en ambos variables, como la edad, el género o el nivel de estrés.
+
+Es importante tener en cuenta que la correlación no implica causalidad, por lo que es necesario investigar más a fondo para entender la relación entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria.
+
+#### 4.2.3 Relación entre calorías y los METs
+
+Desviación estándar de las calorías por Id
+```
+print(desv_calorias_id)
+[1] 562.7616
+```
+Desviación estándar de las calorías por día de la semana
+```
+> print(desv_calorias_semana)
+[1] 42.18185
+```
+
+Desviación estándar de las METs por Id
+```
+> print(desv_met_id)
+[1] 2.08885
+```
+
+Desviación estándar de las METs por día de la semana
+```
+> print(desv_met_semana)
+[1] 0.2539306
+```
+
+- Calorías por ID: El promedio de calorías varía ampliamente entre los diferentes IDs, desde 1483 hasta 3437 calorías. La desviación estándar es de 562.76 calorías.
+- Calorías por día de la semana: El promedio de calorías por día de la semana es relativamente estable, con una desviación estándar de solo 42.18 calorías. El día sábado tiene el promedio más alto de calorías, con 2381 calorías.
+- METs por ID: El promedio de METs varía entre los diferentes IDs, desde 10.6 hasta 19.7 METs. La desviación estándar es de 2.09 METs.
+- METs por día de la semana: El promedio de METs por día de la semana es relativamente estable, con una desviación estándar de solo 0.25 METs. El día sábado tiene el promedio más alto de METs, con 15.0 METs.
+
+Los promedios de calorías y METs varían más entre los diferentes IDs que entre los días de la semana.
+El día sábado tiene el promedio más alto de calorías y METs, lo que sugiere que los usuarios son más activos y consumen más calorías durante el fin de semana.
+La desviación estándar de las calorías y METs es mayor entre los diferentes IDs que entre los días de la semana, lo que sugiere que hay más variabilidad en la actividad física y el consumo de calorías entre los diferentes usuarios.
+
 
 
 # **5. COMPARTIR**
