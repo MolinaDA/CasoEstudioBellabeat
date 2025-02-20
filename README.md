@@ -1000,7 +1000,9 @@ La desviación estándar de las calorías y METs es mayor entre los diferentes I
 Luego de revisar, procesar y analizar los datos entregados, algunas opciones que se proponen de acuerdo con la solicitud, son las siguientes:
 
 **A) Desarrollar programas de actividad física personalizados:** Basado en los patrones de actividad física y consumo de calorías encontrados, se pueden desarrollar programas de actividad física personalizados para los clientes de Bellabeat.
+
 **B) Crear campañas publicitarias efectivas:** Utilizando los resultados del análisis, se pueden crear campañas publicitarias efectivas que se centren en la importancia de la actividad física y el consumo de calorías para la salud y el bienestar.
+
 **C) Ofrecer promociones y descuentos:** Se pueden ofrecer promociones y descuentos para los clientes que logren ciertos objetivos de actividad física o consumo de calorías.
   
 
