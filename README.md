@@ -981,14 +981,27 @@ El día sábado tiene el promedio más alto de calorías y METs, lo que sugiere 
 La desviación estándar de las calorías y METs es mayor entre los diferentes IDs que entre los días de la semana, lo que sugiere que hay más variabilidad en la actividad física y el consumo de calorías entre los diferentes usuarios.
 
 
-
 # **5. COMPARTIR**
 
+## 5.1 Relaciones entre variables
+
+**Calorías y METs**: Encontramos una correlación negativa entre la cantidad de minutos de sueño diaria y la cantidad de pasos diaria. Esto sugiere que los usuarios que duermen más tienden a ser menos activos físicamente.
+**[insertar gráfica]**
+
+**Actividad física y día de la semana**: Los promedios de calorías y METs varían más entre los diferentes IDs que entre los días de la semana. Sin embargo, el día sábado tiene el promedio más alto de calorías y METs, lo que sugiere que los usuarios son más activos y consumen más calorías durante el fin de semana.
+**[insertar gráfica]**
+
+**Variabilidad en la actividad física**: La desviación estándar de las calorías y METs es mayor entre los diferentes IDs que entre los días de la semana, lo que sugiere que hay más variabilidad en la actividad física y el consumo de calorías entre los diferentes usuarios.
+**[insertar gráfica]**
 
 
 # **6. ACTUAR**
 
-Luego de analizar los datos proporcionados para evaluar las posibles estrategias de marketing para un productos
+Luego de revisar, procesar y analizar los datos entregados, algunas opciones que se proponen de acuerdo con la solicitud, son las siguientes:
+
+**A) Desarrollar programas de actividad física personalizados:** Basado en los patrones de actividad física y consumo de calorías encontrados, se pueden desarrollar programas de actividad física personalizados para los clientes de Bellabeat.
+**B) Crear campañas publicitarias efectivas:** Utilizando los resultados del análisis, se pueden crear campañas publicitarias efectivas que se centren en la importancia de la actividad física y el consumo de calorías para la salud y el bienestar.
+**C) Ofrecer promociones y descuentos:** Se pueden ofrecer promociones y descuentos para los clientes que logren ciertos objetivos de actividad física o consumo de calorías.
   
 
 
