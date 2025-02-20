@@ -669,6 +669,8 @@ Promedio de minutos intensidad ALTA día de semana
 24 1844505072                  652  
 ```
 Nota: En este set de datos, sólo hay registros de 24 usuarios.
+![imagen](https://github.com/user-attachments/assets/09595824-fcbd-4bc0-a839-e0d74e4f6852)
+
 
 #### 4.1.2.2 Distribución de los minutos promedio de sueño por día de la semana
 ```
@@ -682,6 +684,8 @@ Nota: En este set de datos, sólo hay registros de 24 usuarios.
 6 vie                             405.
 7 sáb                             419.
 ```
+![imagen](https://github.com/user-attachments/assets/f5b3e355-9582-4612-852b-a6a4bb6cf2e4)
+
 
 ### 4.1.3 Distribución de la cantidad de pasos
 
@@ -839,6 +843,7 @@ Día_semana promedio_calorias
 32 5577150313          18.7
 33 8877689391          19.7
 ```
+![imagen](https://github.com/user-attachments/assets/0fd8c147-d9ab-4631-9095-5151fa1a29b0)
 
 
 #### 4.1.5.2 Distribución de promedio de METs por semana
@@ -853,6 +858,7 @@ Día_semana promedio_calorias
 6 vie                            14.7
 7 sáb                            15.0
 ```
+![imagen](https://github.com/user-attachments/assets/ce524844-e757-4a9b-877b-b55f69721d0f)
 
 
 ### 4.2 Relación entre variables
